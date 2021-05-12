@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cowin App Slot</title>
+</head>
+<body>
+       <form action="/api" method="post">
+  <label for="pin">Pincode :</label><br>
+  <input type="text" id="pin" name="pin"><br>
+  <label for="date">date:</label><br>
+  <input type="text" id="date" name="date"><br><br>
+  <input type="submit" value="Submit">
+</form>
+   </form>
+{% block content %}
+<div>
+ {{  data }}
+</div>
+{% endblock content %}
+</body>
+</html>
