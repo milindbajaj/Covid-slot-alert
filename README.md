@@ -1,0 +1,1 @@
+# Covid-slot-alert
