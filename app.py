@@ -1,7 +1,6 @@
 from flask import Flask,render_template,request,jsonify
 import requests
 import json
-from urllib.request import Request, urlopen
 
 app= Flask(__name__)
 
